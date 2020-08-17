@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <style>
+    div {
+      font-size: 50px;
+      height: 50px;
+    }
+
+    .div-father {
+      position: relative;
+      width: vw;
+      height: 50px;
+      background-color: deepskyblue;
+    }
+
+    .div-left {
+      position: absolute;
+      display: inline-block;
+      width: calc(100% - 200px);
+      background-color: red;
+      overflow: hidden;
+      text-overflow: clip;
+    }
+
+    .div-right {
+      position: absolute;
+      display: inline-block;
+      left: calc(100% - 200px);
+      ;
+      width: 200px;
+      background-color: deeppink;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="div-father">
+    <div class="div-left">左左左左左左左左</div>
+    <div class="div-right">右右右右右右右右</div>
+  </div>
+
+
+
+  <script>
+    console.log((!(~+[]) + {})[--[~+""][+[]] * [~+[]] + ~~!+[]] + ({} + [])[[~!+[]] * ~+[]])
+  </script>
+</body>
+
+</html>
